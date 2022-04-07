@@ -16,6 +16,11 @@ public class SuperHeroe {
 	private String nombre;	
 	private String estado;
 	
+	public SuperHeroe(int id, String nombre, String estado) {
+		this.id=id;
+		this.nombre=nombre;
+		this.estado=estado;
+	}
 	public Integer getId() {
 		return id;
 	}
