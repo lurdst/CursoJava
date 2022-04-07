@@ -1,0 +1,18 @@
+ INSERT INTO public.superheroes (nombre,id_estado) VALUES
+	 ('Wonder Woman','sano'),
+	 ('Spiderman','herido'),
+	 ('Aquaman','sano'),
+	 ('Deadpool','muerto'),
+	 ('Ironman','sano'),
+	 ('Batman','sano'),
+	 ('Flash','herido'),
+	 ('Thor','sano'),
+	 ('Capitana Marvel','muerto'),
+	 ('Viuda Negra','sano'),
+	 ('Superman','herido'),
+	 ('Hulk','herido'),
+	 ('Capitan America','sano'),
+	 ('Super Girl','sano'),
+	 ('Pantera Negra','muerto'),
+	 ('Lobezno','sano'),
+	 ('Daredevil','sano');

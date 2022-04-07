@@ -1,0 +1,7 @@
+spring:
+  datasource:
+    username: postgres
+    password: 2887
+    url: jdbc:postgresql://localhost:5432/postgres
+
+spring.jpa.open-in-view: false
