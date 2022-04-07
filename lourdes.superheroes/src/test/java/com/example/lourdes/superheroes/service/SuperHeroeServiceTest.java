@@ -68,7 +68,7 @@ public class SuperHeroeServiceTest{
 		superHeroesActual = superHeroeService.listarSuperHeroes();
 		
 		//Comprobaciones del resultado esperado
-		assertTrue(superHeroesActual.size() > 0);
+		assertEquals(superHeroesActual.size(), superHeroesEsperado.size());
 	}
 	
 	@Test
