@@ -2,7 +2,6 @@ package com.example.lourdes.superheroes.service;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertNotNull;
-import static org.junit.jupiter.api.Assertions.assertNull;
 import static org.junit.jupiter.api.Assertions.assertTrue;
 import static org.mockito.Mockito.doNothing;
 import static org.mockito.Mockito.when;
@@ -46,9 +45,9 @@ public class SuperHeroeServiceTest{
 	void setup_test() {
 		superHeroes = new HashMap<>();
 		superHeroes.put(1,
-				new SuperHeroe(1, "Superman", "Sano"));
+				new SuperHeroe(1,"Superman", "Sano"));
 		superHeroes.put(2,
-				new SuperHeroe(2, "Batman", "Muerto"));
+				new SuperHeroe(2,"Batman", "Muerto"));
 		
 		//Inicializar variables
 		id = Integer.valueOf(1);

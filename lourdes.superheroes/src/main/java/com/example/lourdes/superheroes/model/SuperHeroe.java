@@ -16,7 +16,12 @@ public class SuperHeroe {
 	private String nombre;	
 	private String estado;
 	
+	public SuperHeroe() {
+		super();
+	}
+	
 	public SuperHeroe(int id, String nombre, String estado) {
+		super();
 		this.id=id;
 		this.nombre=nombre;
 		this.estado=estado;

@@ -30,11 +30,10 @@ public class SuperHeroeServiceImpl implements SuperHeroeService {
 	}
 	
 	@Override
-	public List<SuperHeroe> buscarPorEstado(String idEstado) {
-		return superHeroeRepository.findByEstado(idEstado);
+	public List<SuperHeroe> buscarPorEstado(String estado) {
+		return superHeroeRepository.findByEstado(estado);
 	}
 
-	
 	@Override
 	public SuperHeroe guardarSuperHeroe(SuperHeroe superHeroe) {
 		return superHeroeRepository.save(superHeroe);

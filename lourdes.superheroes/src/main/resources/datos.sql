@@ -1,4 +1,4 @@
- INSERT INTO public.superheroes (nombre,id_estado) VALUES
+ INSERT INTO public.superheroes (nombre,estado) VALUES
 	 ('Wonder Woman','sano'),
 	 ('Spiderman','herido'),
 	 ('Aquaman','sano'),
